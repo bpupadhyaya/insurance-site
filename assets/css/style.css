@@ -375,24 +375,24 @@ h3 { font-size: 18px; font-weight: 700; color: var(--blue-900); line-height: 1.3
 
 /* ---------- Footer ---------- */
 
-footer { background: var(--blue-900); color: #c6d9ee; padding: 52px 0 30px; font-size: 14px; }
+footer { background: #0b3d2e; color: #cfe6db; padding: 52px 0 30px; font-size: 14px; }
 
 .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.4fr; gap: 32px; }
 .brand-foot { font-size: 16px; color: #fff; }
 .brand-foot img { filter: brightness(1.9); }
-.foot-brand p { color: #9db8d6; font-size: 13.5px; margin-top: 12px; max-width: 30ch; }
+.foot-brand p { color: #9dc4b3; font-size: 13.5px; margin-top: 12px; max-width: 30ch; }
 .foot-col h4 {
     color: #fff; font-size: 12.5px; font-weight: 700; letter-spacing: 0.08em;
     text-transform: uppercase; margin-bottom: 14px;
 }
 .foot-col a {
-    display: block; color: #c6d9ee; text-decoration: none; font-size: 14px; padding: 4px 0;
+    display: block; color: #eaf7f0; text-decoration: none; font-size: 14px; padding: 4px 0;
 }
 .foot-col a:hover { color: #fff; text-decoration: underline; }
-.foot-note { color: #9db8d6; font-size: 13px; margin-bottom: 10px; }
+.foot-note { color: #9dc4b3; font-size: 13px; margin-bottom: 10px; }
 
 .foot-legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.14); }
-.foot-legal p { color: #7f9dc0; font-size: 13px; }
+.foot-legal p { color: #86ab99; font-size: 13px; }
 
 /* ---------- Reveal animation ---------- */
 
