@@ -394,6 +394,25 @@ footer { background: #0b3d2e; color: #cfe6db; padding: 52px 0 30px; font-size: 1
 .foot-legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.14); text-align: center; }
 .foot-legal p { color: #86ab99; font-size: 13px; }
 
+/* ---------- American flag nav theme (EXPERIMENT) ----------
+   To revert: remove class "nav-flag" from <nav> in index.html
+   and delete this block (or git revert the commit). */
+
+.nav-flag { position: sticky; }
+.nav-flag::before {
+    content: ""; display: block; height: 6px;
+    background: linear-gradient(180deg, #B22234 0 2px, #ffffff 2px 4px, #002868 4px 6px);
+}
+.nav-flag .brand { color: #002868; }
+.nav-flag .brand::after {
+    content: "★"; color: #B22234; font-size: 11px; margin-left: 2px;
+    align-self: flex-start; line-height: 1.6;
+}
+.nav-flag .nav-links a:hover { color: #002868; }
+.nav-flag .nav-links .nav-cta { background: #B22234; color: #fff; }
+.nav-flag .nav-links .nav-cta:hover { background: #8f1c2a; }
+.nav-flag .menu-btn span:not(.sr-only) { background: #002868; }
+
 /* ---------- Reveal animation ---------- */
 
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
