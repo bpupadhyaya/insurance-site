@@ -391,7 +391,7 @@ footer { background: #0b3d2e; color: #cfe6db; padding: 52px 0 30px; font-size: 1
 .foot-col a:hover { color: #fff; text-decoration: underline; }
 .foot-note { color: #9dc4b3; font-size: 13px; margin-bottom: 10px; }
 
-.foot-legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.14); }
+.foot-legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.14); text-align: center; }
 .foot-legal p { color: #86ab99; font-size: 13px; }
 
 /* ---------- Reveal animation ---------- */
