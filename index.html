@@ -14,8 +14,8 @@
 <meta property="og:site_name" content="Insurance Hub">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=3">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=4">
 </head>
 <body>
 
@@ -46,29 +46,21 @@
 
 <!-- ============ HERO ============ -->
 <header class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="kicker">AI-native &middot; Built on public regulatory data &middot; USA</p>
-      <h1>Every insurance.<br>One hub.<br><em>The honest price.</em></h1>
-      <p class="lede">
-        Insurance Hub compares every kind of insurance — auto, home, health, life,
-        flood, pet, and more — using prices computed from what carriers legally file
-        with state regulators. Not partner bids. Not ads. Evidence, refreshed as
-        rates change.
-      </p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="#apps">Get the apps <span class="soon">coming&nbsp;soon</span></a>
-        <a class="btn btn-ghost" href="#how">See how it works</a>
-      </div>
-      <ul class="hero-points">
-        <li>Every domain, one place — drill down to exactly what you need</li>
-        <li>National-level comparison, so you decide fully informed</li>
-        <li>Nothing about you is stored on this site — ever</li>
-      </ul>
+  <div class="wrap">
+    <p class="kicker">AI-native &middot; Built on public regulatory data &middot; USA</p>
+    <h1>Every insurance. One hub.<br><span class="accent">The honest price.</span></h1>
+    <p class="tagline">Auto &middot; Home &middot; Health &middot; Life &middot; Flood &middot; Pet — compared from evidence, not ads.</p>
+    <p class="lede">
+      Insurance Hub compares every kind of insurance using prices computed from what
+      carriers legally file with state regulators. Not partner bids. Not ads.
+      Evidence, refreshed as rates change.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#apps">Get the apps <span class="soon">coming&nbsp;soon</span></a>
+      <a class="btn btn-ghost" href="#how">See how it works</a>
     </div>
 
-    <div class="hero-visual" aria-hidden="true">
-      <div class="phone">
+    <div class="phone" aria-hidden="true">
         <div class="phone-top">
           <span class="phone-title">Auto &middot; Ohio &middot; 100/300</span>
           <span class="chip chip-live"><span class="pulse"></span>Rates refreshed today</span>
@@ -97,7 +89,12 @@
         </div>
         <div class="phone-note">Every price links to the public filing behind it.</div>
       </div>
-    </div>
+
+    <ul class="hero-points">
+      <li>Every domain, one place</li>
+      <li>National-level comparison</li>
+      <li>Nothing about you is stored on this site</li>
+    </ul>
   </div>
 </header>
 
@@ -119,13 +116,15 @@
 <!-- ============ DOMAINS ============ -->
 <section id="domains" class="section">
   <div class="wrap">
-    <p class="eyebrow">All domains</p>
-    <h2>One hub for every insurance in your life</h2>
-    <p class="section-lede">
-      Start from the full landscape, then drill down to the coverage, state, and
-      situation that matter to you. The same domains you see here are in the apps —
-      with the complete provider list.
-    </p>
+    <div class="section-head">
+      <p class="eyebrow">All domains</p>
+      <h2>One hub for every insurance in your life</h2>
+      <p class="section-lede">
+        Start from the full landscape, then drill down to the coverage, state, and
+        situation that matter to you. The same domains you see here are in the apps —
+        with the complete provider list.
+      </p>
+    </div>
     <ul class="domain-grid">
       <li><span class="d-ico">🚗</span><h3>Auto</h3><p>Liability to full coverage, every filed rate.</p></li>
       <li><span class="d-ico">🏠</span><h3>Home</h3><p>Homeowners forms, deductibles, wind/hail.</p></li>
@@ -146,8 +145,10 @@
 <!-- ============ HOW IT WORKS ============ -->
 <section id="how" class="section tint">
   <div class="wrap">
-    <p class="eyebrow">How it works</p>
-    <h2>From public filings to your comparison — transparently</h2>
+    <div class="section-head">
+      <p class="eyebrow">How it works</p>
+      <h2>From public filings to your comparison — transparently</h2>
+    </div>
     <ol class="steps">
       <li>
         <span class="step-num">1</span>
@@ -186,8 +187,10 @@
 <!-- ============ EVIDENCE ============ -->
 <section id="evidence" class="section">
   <div class="wrap">
-    <p class="eyebrow">Evidence, not ads</p>
-    <h2>Why filed rates beat comparison sites</h2>
+    <div class="section-head">
+      <p class="eyebrow">Evidence, not ads</p>
+      <h2>Why filed rates beat comparison sites</h2>
+    </div>
     <div class="versus">
       <div class="v-col v-them">
         <h3>Comparison sites today</h3>
@@ -214,13 +217,15 @@
 <!-- ============ LEARN ============ -->
 <section id="learn" class="section tint">
   <div class="wrap">
-    <p class="eyebrow">Learn &amp; try</p>
-    <h2>Understand insurance before you spend a dollar</h2>
-    <p class="section-lede">
-      This site is also a classroom. Interactive explainers and simulations show you
-      how insurance pricing actually works — including a live demonstration of rate
-      refreshing across a limited set of providers, right here in your browser.
-    </p>
+    <div class="section-head">
+      <p class="eyebrow">Learn &amp; try</p>
+      <h2>Understand insurance before you spend a dollar</h2>
+      <p class="section-lede">
+        This site is also a classroom. Interactive explainers and simulations show you
+        how insurance pricing actually works — including a live demonstration of rate
+        refreshing across a limited set of providers, right here in your browser.
+      </p>
+    </div>
     <div class="learn-grid">
       <article class="learn-card">
         <h3>Rate refresh, demonstrated</h3>
@@ -311,7 +316,7 @@
     const io = new IntersectionObserver((entries) => {
       for (const e of entries) if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
     }, { threshold: 0.12 });
-    document.querySelectorAll('.section .wrap, .hero-copy, .hero-visual').forEach(el => {
+    document.querySelectorAll('.section .wrap').forEach(el => {
       el.classList.add('reveal'); io.observe(el);
     });
   }
