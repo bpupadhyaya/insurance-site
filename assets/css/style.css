@@ -375,7 +375,8 @@ footer { background: #081726; padding: 56px 0 28px; }
 .foot-grid {
   display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.4fr; gap: 32px;
 }
-.brand-foot { font-size: .98rem; }
+.brand-foot { font-size: .98rem; color: #fff; }
+.brand-foot img { filter: brightness(1.9); }
 .foot-brand p { color: #7E93A7; font-size: .88rem; margin-top: 12px; max-width: 30ch; }
 .foot-col h4 {
   color: #fff; font-size: .8rem; font-weight: 700; letter-spacing: .1em;
