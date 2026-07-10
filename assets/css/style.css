@@ -272,6 +272,9 @@ h3 { font-size: 18px; font-weight: 700; color: var(--blue-900); line-height: 1.3
 .domain-grid li:nth-child(even) .d-ico { background: var(--blue-100); }
 .domain-grid h3 { margin-bottom: 5px; }
 .domain-grid p { font-size: 14.5px; color: var(--ink-soft); }
+.domain-grid .card-link { display: block; margin: -24px; padding: 24px; color: inherit; text-decoration: none; border-radius: var(--radius); }
+.domain-grid .go { color: var(--teal-600); font-weight: 800; }
+.domain-grid .try { display: block; margin-top: 6px; font-size: 13px; color: var(--teal-700); }
 
 /* Steps */
 
